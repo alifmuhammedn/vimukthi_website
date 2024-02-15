@@ -1,0 +1,15 @@
+.App{
+  /* padding-left: 20px; */
+  background:linear-gradient(to bottom right,#24bae767,#fff)
+}
+.left-content,.left-content>*{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 980px) {
+
+  .wow > *{
+    display: flex!important;
+    flex-direction: column;
+  }
+}
